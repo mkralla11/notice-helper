@@ -1,17 +1,17 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "ogg-view-helpers/version"
+require "notice-helper/version"
 
 Gem::Specification.new do |s|
-  s.name        = "ogg-view-helpers"
+  s.name        = "notice-helper"
   s.version     = Ogg::View::Helpers::VERSION
   s.authors     = ["Paul Cook"]
   s.email       = ["paul.cook@osumc.edu"]
   s.homepage    = ""
-  s.summary     = %q{View Helpers for OGG projects}
-  s.description = %q{View Helpers for OGG projects}
+  s.summary     = %q{A Notice Helper}
+  s.description = %q{A Notice helper for flash messages}
 
-  s.rubyforge_project = "ogg-view-helpers"
+  s.rubyforge_project = "notice-helper"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -20,5 +20,6 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   s.add_development_dependency "rspec"
+  s.add_dependency "jquery-rails"
   # s.add_runtime_dependency "rest-client"
 end

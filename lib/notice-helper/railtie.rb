@@ -1,8 +1,8 @@
-require 'ogg-view-helpers'
+require 'notice-helper/view_helper'
 
-module Ogg
+module NoticeHelper
   class Railtie < Rails::Railtie
-    initializer "ogg.view_helpers" do
+    initializer "notice-helper.view_helpers" do
       ActionView::Base.send :include, ViewHelpers
     end
   end

@@ -1,6 +1,6 @@
-require "ogg-view-helpers/version"
+require "notice-helper/version"
 
-module Ogg
+module NoticeHelper
   module ViewHelpers
     def handle_notices
       flsh = ''
@@ -12,5 +12,3 @@ module Ogg
     end
   end
 end
-
-require 'ogg-view-helpers/railtie' if defined?(Rails)
