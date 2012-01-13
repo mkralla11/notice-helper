@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.name        = "ogg-view-helpers"
   s.version     = Ogg::View::Helpers::VERSION
   s.authors     = ["Paul Cook"]
-  s.email       = ["paul.cook@alternateversion.com"]
+  s.email       = ["paul.cook@osumc.edu"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{View Helpers for OGG projects}
+  s.description = %q{View Helpers for OGG projects}
 
   s.rubyforge_project = "ogg-view-helpers"
 
