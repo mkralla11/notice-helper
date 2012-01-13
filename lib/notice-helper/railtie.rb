@@ -5,8 +5,5 @@ module NoticeHelper
     initializer "notice-helper.view_helpers" do
       ActionView::Base.send :include, ViewHelpers
     end
-    class Engine < Rails::Engine
-      
-    end
   end
 end
