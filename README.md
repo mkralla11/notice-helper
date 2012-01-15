@@ -6,7 +6,7 @@ This is a fairly basic flash notice helper extracted from projects in use at The
 Installation
 ------------
 
-`gem 'notice-helper'`
+`gem 'notice-helper', :git=>'git@github.com:osuogg/notice-helper.git'`
 
 Usage
 -----
