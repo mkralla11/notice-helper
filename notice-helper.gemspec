@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
-  s.add_dependency("railties", "~> 3.1")
+  s.add_dependency("railties", "~> 3.2")
   s.add_development_dependency "rspec"
   s.add_dependency "jquery-rails"
   # s.add_runtime_dependency "rest-client"
