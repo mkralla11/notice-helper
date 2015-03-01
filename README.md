@@ -1,12 +1,7 @@
 Notice Helper
 =============
 
-This is a fairly basic flash notice helper extracted from projects in use at The Office of Geriatrics and Gerontology at Ohio State University.
-
-Installation
-------------
-
-`gem 'notice-helper', :git=>'git@github.com:osuogg/notice-helper.git'`
+This is a fairly basic Rails flash notice helper.
 
 Usage
 -----
